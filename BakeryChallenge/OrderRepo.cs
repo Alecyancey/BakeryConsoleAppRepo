@@ -9,7 +9,6 @@ namespace BakeryChallenge
     public class OrderRepo
     {
         private readonly List<Order> _orders = new List<Order>();
-        //private readonly List<Product> _products = new List<Product>();
 
         public bool AddOrder(Order order)
         {
